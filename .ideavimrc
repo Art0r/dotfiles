@@ -35,10 +35,3 @@ nmap <Leader>d <Action>(Debug)
 " Set Breakpoint
 nmap <Leader>b <Action>(ToggleLineBreakpoint)
 
-vmap <leader>y "*y
-vmap <leader>d "*d
-nmap <leader>y "*yy
-nmap <leader>p "*p
-nmap <leader>P "*P
-vmap <leader>p "*p
-vmap <leader>P "*P
