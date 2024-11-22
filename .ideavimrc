@@ -1,0 +1,44 @@
+set number relativenumber
+set idearefactormode=keep
+set ideajoin
+set surround
+set easymotion
+set scrolloff=5
+" Do incremental searching.
+set incsearch
+
+" Setting <Leader>
+let mapleader = "\"
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+" --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
+
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+" NERDTree
+Plug 'preservim/nerdtree'
+
+map <C-t> :NERDTreeFocus<CR>
+map <C-e> :NERDTreeToggle<CR>
+
+nmap <Leader>h <Action>(PreviousTab)
+nmap <Leader>l <Action>(NextTab)
+nmap <Leader>i <Action>(Generate)
+" Format current code in accord to PEP
+nmap <Leader>r <Action>(ReformatCode)
+" Start Debug
+nmap <Leader>d <Action>(Debug)
+" Set Breakpoint
+nmap <Leader>b <Action>(ToggleLineBreakpoint)
+
+vmap <leader>y "*y
+vmap <leader>d "*d
+nmap <leader>y "*yy
+nmap <leader>p "*p
+nmap <leader>P "*P
+vmap <leader>p "*p
+vmap <leader>P "*P
