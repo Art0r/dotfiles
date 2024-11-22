@@ -103,8 +103,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# CUSTOM VARIABLES AND ALIASES
+# CUSTOM VARIABLES
 
 export SUDO_EDITOR="nvim"
+
+# ALIASES
+
 alias "sudoedit"='function _sudoedit(){sudo -e "$1";};_sudoedit'
 alias vim='nvim'
+
+# PATH VARIABLES
+
+export PATH=$HOME/Execs/node-v22.11.0-linux-x64/bin:$PATH
