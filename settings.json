@@ -1,6 +1,5 @@
 {
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 500,
+    "editor.minimap.enabled": false,
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
@@ -11,5 +10,5 @@
     "zenMode.showTabs": "single",
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
-    }
+    },
 }
