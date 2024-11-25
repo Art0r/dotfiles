@@ -4,7 +4,7 @@
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Dracula Theme Soft",
     "zenMode.centerLayout": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.showTabs": "single",
