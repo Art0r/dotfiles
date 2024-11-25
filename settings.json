@@ -10,4 +10,5 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
+    "workbench.colorTheme": "Dracula Theme",
 }
